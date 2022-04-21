@@ -1,13 +1,10 @@
-import react from 'react'
+import react from "react";
 
-function Car(props){
-    return (
-        <>
-<li>I am a { props.brand }</li>;
-</>
-
-    )
-
-
+function Car(props) {
+  return (
+    <>
+      <li key={props.brand}>I am a {props.brand}</li>
+    </>
+  );
 }
-export default Car
+export default Car;
